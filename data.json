@@ -1,5 +1,5 @@
 {
-    "posts":[
+    "posts": [
         {
             "id":1,
             "profile": {
@@ -9,6 +9,17 @@
             "content": {
                 "text": "Me encontre un lindo perrito en el parque",
                 "photo": "perrito.jpeg"
+            }
+        },
+        {
+            "id": 2,
+            "profile": {
+                "name": "Angela Moss",
+                "photo": "photo02.png"
+            },
+            "content": {
+                "text": "Moria por comerme unos buenos taquitos",
+                "photo": "tacos.jpeg"
             }
         }
     ]
