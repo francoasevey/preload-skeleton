@@ -1,0 +1,15 @@
+{
+    "posts":[
+        {
+            "id":1,
+            "profile": {
+                "name": "Elliot Alderson",
+                "photo": "photo01.png"
+            },
+            "content": {
+                "text": "Me encontre un lindo perrito en el parque",
+                "photo": "perrito.jpeg"
+            }
+        }
+    ]
+}
