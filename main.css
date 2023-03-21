@@ -10,3 +10,13 @@ body{
     background-color: white;
     overflow: hidden;
 }
+.card-container .card-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.card-container .card-header h3{
+    width: 220px;
+    height: 22px;
+}
