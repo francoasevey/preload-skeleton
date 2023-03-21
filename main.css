@@ -38,4 +38,18 @@ body{
 .placeholder{
     background: #ccc;
     height: 10px;
+    animation-name: placeholder;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes placeholder {
+    0%{
+        background: #ccc;
+    }
+    50%{
+        background: #eee;
+    }
+    100%{
+        background: #ccc;
+    }
 }
