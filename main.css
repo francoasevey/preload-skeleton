@@ -20,3 +20,22 @@ body{
     width: 220px;
     height: 22px;
 }
+.card-container .card-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-container .card-content .card-text{
+    padding: 10px;
+}
+.card-container .card-content .card-text p{
+    height: 18px;
+}
+.card-container .card-content .card-image img{
+    width: 600px;
+    height: 400px;
+}
+.placeholder{
+    background: #ccc;
+    height: 10px;
+}
