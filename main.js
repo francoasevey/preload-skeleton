@@ -39,3 +39,4 @@ async function downloaderImage(url){
     console.log(`Descarga completa de ${url}`);
     return imgURL;
 }
+requestInfo()
