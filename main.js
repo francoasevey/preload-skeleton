@@ -9,7 +9,25 @@ async function requestInfo() {
 
             downloaderImage(post.profile.photo),
             downloaderImage(post.content.photo),
-        ])
+        ]);
+        html = `
+        <div class="card-container">
+        <div class="card-header">
+            <img src="/img/placeholder.png" alt="" class="placeholder">
+            <h3 class="placeholder"></h3>
+        </div>
+
+        <div class="card-content">
+            <div class="card-text">
+                <p class="placeholder"></p>
+            </div>
+
+            <div class="card-image">
+                <img src="/img/placeholder.png" alt="" class="placeholder">
+            </div>
+        </div>
+    </div>
+    ` ;
     }
 }
 async function downloaderImage(url){
