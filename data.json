@@ -3,22 +3,22 @@
         {
             "id":1,
             "profile": {
-                "name": "Elliot Alderson",
+                "name": "Mr Boss",
                 "photo": "photo01.png"
             },
             "content": {
-                "text": "Me encontre un lindo perrito en el parque",
-                "photo": "spok.jpeg"
+                "text": "Today I wish you Live long and prosper",
+                "photo": "spock.jpeg"
             }
         },
         {
             "id": 2,
             "profile": {
-                "name": "Angela Moss",
+                "name": "Kitty pink",
                 "photo": "photo02.png"
             },
             "content": {
-                "text": "Moria por comerme unos buenos taquitos",
+                "text": "Cesar is at home",
                 "photo": "cesar.jpeg"
             }
         }
