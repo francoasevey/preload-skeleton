@@ -19,6 +19,7 @@ body{
 .card-container .card-header h3{
     width: 220px;
     height: 22px;
+    font-family: 'Anton', sans-serif;
 }
 .card-container .card-header img{
     width: 50px;
@@ -27,6 +28,8 @@ body{
 }
 .card-container .card-content .card-text{
     padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
 }
 .card-container .card-content .card-text p{
     height: 18px;
