@@ -5,7 +5,7 @@ async function requestInfo() {
     let html = "";
     for (let i = 0; i <json.posts.length; i++){
         const post = json.posts[i];
-        const [profileURL, postURL] = await Promise.all([
+        const [profileURL, phototURL] = await Promise.all([
 
             downloaderImage(post.profile.photo),
             downloaderImage(post.content.photo),
@@ -13,22 +13,23 @@ async function requestInfo() {
         html = `
         <div class="card-container">
         <div class="card-header">
-            <img src="/img/placeholder.png" alt="" class="placeholder">
-            <h3 class="placeholder"></h3>
+            <img src="${profileURL}" alt="" class="fadeIn">
+            <h3 class="fadeIn">${post.profile.name}</h3>
         </div>
 
         <div class="card-content">
             <div class="card-text">
-                <p class="placeholder"></p>
+                <p class="fadeIn">${post.content.text}</p>
             </div>
 
             <div class="card-image">
-                <img src="/img/placeholder.png" alt="" class="placeholder">
+                <img src="${phototURL}" alt="" class="fadeIn">
             </div>
         </div>
     </div>
     ` ;
     }
+    document.querySelector("#container").innerHTML = html;
 }
 async function downloaderImage(url){
     console.log(`Descargando ${url}...`);
