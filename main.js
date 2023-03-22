@@ -10,7 +10,7 @@ async function requestInfo() {
             downloaderImage(post.profile.photo),
             downloaderImage(post.content.photo),
         ]);
-        html = `
+        html += `
         <div class="card-container">
         <div class="card-header">
             <img src="${profileURL}" alt="" class="fadeIn">
@@ -29,6 +29,7 @@ async function requestInfo() {
     </div>
     ` ;
     }
+    console.log("adjuntando contenido")
     document.querySelector("#container").innerHTML = html;
 }
 async function downloaderImage(url){
